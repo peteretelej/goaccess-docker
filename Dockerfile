@@ -11,7 +11,7 @@ RUN apt-get update && apt-get upgrade --no-install-recommends -y \
 	    && ./configure --enable-utf8 --enable-geoip=legacy \
 	    && make \
 	    && make install \ 
-	    && apt-get purge -y wget build-essential libncursesw5-dev libgeoip-dev \
+	    && apt-get purge --auto-remove -y wget build-essential libncursesw5-dev libgeoip-dev \
 	    && rm -rf /var/lib/apt/lists/*
 
 
