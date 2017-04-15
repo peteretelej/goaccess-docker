@@ -2,7 +2,7 @@
 
 GoAccess is an excellent terminal-based log analyzer.
 
-Use the Official docker image: [allinurl/goaccess](https://hub.docker.com/r/allinurl/goaccess/), it's supported.
+Use the Official docker image: [allinurl/goaccess](https://hub.docker.com/r/allinurl/goaccess/).
 
 ## Basic Usage
 Assuming `goaccess.conf` and `access.log` are in current working directory
